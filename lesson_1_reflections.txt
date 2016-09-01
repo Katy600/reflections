@@ -1,4 +1,4 @@
-Using diff helps find bugs because it means you don't have to compare it manually and scroll through endless code. It will selct the parts that have been changed indicating with a + or -. + means that something has been added and - means something that has been removed in the new file. 
+Using diff helps find bugs because it means you don't have to compare it manually and scroll through endless code. It will select the parts that have been changed indicating with a + or -. + means that something has been added and - means something that has been removed in the new file. 
 Having access to the entire history of a file means that if you change something and make a typo or it stops working you can compare or revert to your previous file. You don't have to manually be saving it under a new name each time. It means you can go back to any point in time and reinstate that version
 
 Manually choosing means you can commit when it makes logical sense. Whether this is because you have been working on the same concept for an hour or you are fixing a bug. As long as it can be simply explained in the comment section and located easily. 
@@ -7,6 +7,6 @@ Version control systems like Git allow you to save multiple files in one commit 
 
 By using Git log you are able to see all the commits that have been made along with the comments say what has been changed. You are then able to take the codes and use git diff to compare the changes that have taken place more precisely. 
 
-You can use the command git log to view all the commits that have been made previously. You can then take id codes fro two selected commits to compare with one another using git diff. This will then highlight changes that have been made. Red shows things that have been removed and green things that have been added to the new version. 
+You can use the command git log to view all the commits that have been made previously. You can then take id codes from two selected commits to compare with one another using git diff. This will then highlight changes that have been made. Red shows things that have been removed and green things that have been added to the new version. 
 
-version control gives you the confidence to know that you can revert to a previous version. Therefore you are more likely to be experimental and take risks. 
+version control gives you the confidence to know that you can revert to a previous version. Therefore you are more likely to be experimental and take risks. It also alows you to create variations of the same code, such as version in another language or difficuilty level.  

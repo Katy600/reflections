@@ -4,7 +4,7 @@ The working directory is before you have put in your git init, so it is not bein
 
 You might want to create a branch if you a creating a different version of your master. Such as a version in another language, or you might want to create a new branch if you are experimenting with a different type of code. Branches are helpful because it is clearly labeled alowing you to work on seperate branches with out them effecting one another. Bye labeling the branches clearly you can distingish between linear updates as opposed to creating versions of the master for different purposes. 
 
-The diagrams help me visualise the branch structure because I can trace back the parent of each commit. I am aware that by creating a new branch it or a new comit which is not connected to the main branch will mean it might not have any actual impact on the code. 
+The diagrams help me visualise the branch structure because I can trace back the parent of each commit. I am aware that by creating a new branch or a new comit which is not connected to the main branch will mean it might not have any actual impact on the code. 
 
 By merging two branches together it means that it will use the origional file to select what to keep and what to leave. Because the new branch is now merged and their is a new master branch which combines both commits from each branch. This means that you will be able to see these commits in time order when you do git log. It also means that you no longer need a branch name. Therefore you can delete the branch. This doesn't mean that it gets rid of your commits though, just the label. Now it is merged it is harder to find your parent commits. If you want to look at commits only relevant to your code then you can use git show. 
 
